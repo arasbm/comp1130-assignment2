@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class Banana {
     private String color = "";
     private static int count = 0;

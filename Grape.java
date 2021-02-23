@@ -8,6 +8,6 @@ public Grape (String newColor, float newWeight)
 {color = newColor;
  weight = newWeight;
  count++;}
-public String tostring()
+public String toString()
 {return "This instance of Grape is " + color + " and the weight is " + weight + " lb. So far you have generated " + count + " Grape ";}
 }

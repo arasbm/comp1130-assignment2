@@ -4,7 +4,7 @@ public static void main(String[] args)
 {
 
 Grape instance1 = new Grape("Purple", 1f);
-System.out.println(instance1.tostring());
+System.out.println(instance1.toString());
 
 Grape instance2 = new Grape("Green", 1.50f);
 Grape instance3 = new Grape("Black", 1.75f);

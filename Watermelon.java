@@ -4,7 +4,7 @@ public class Watermelon {
 
     private String color = "";
     private static int count = 0; 
-    private float weight = 0;
+    private float weight = 0.0f;
 
     public Watermelon(String input_color, float input_weight){
 

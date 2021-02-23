@@ -1,14 +1,14 @@
 public class WatermelonDriver {
     public static void main(String args[]){  
 
-        Watermelon s1=new Watermelon("red",  (float) 0.55);
-        System.out.println(s1); 
+        Watermelon firstInstance = new Watermelon("green", 0.55f);
+        System.out.println(firstInstance.toString()); 
 
-        Watermelon s2=new Watermelon("blue", (float) 0.75);
+        Watermelon secondInstance = new Watermelon("green", 0.75f);
         
 
-        Watermelon s3=new Watermelon("orange", (float) 2);
-        System.out.println(s3);
+        Watermelon thirdInstance = new Watermelon("green", 2f);
+        System.out.println(thirdInstance.toString());
         
       }  
     
